@@ -11,7 +11,7 @@
  &lt;img scr=&#34;https://api.solstice23.top/one_way_calendar/&#34;&gt;">
 <meta name="theme-color" content="#000">
 <title>Gridea</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1610671031646">
+<link rel="shortcut icon" href="/favicon.ico?v=1611665622944">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -195,19 +195,19 @@
     <div class="sidebar-item-box">
       <a href="/archives/">
         
-        <span class="site-item-stat-count">36</span>
+        <span class="site-item-stat-count">40</span>
         <span class="site-item-stat-name language" data-lan="article">文章</span>
       </a>
     </div>
     <div class="sidebar-item-box">
       <a href="">
-        <span class="site-item-stat-count">19</span>
+        <span class="site-item-stat-count">20</span>
         <span class="site-item-stat-name language" data-lan="category">分类</span>
       </a>
     </div>
     <div class="sidebar-item-box">
       <a href="/tags/">
-        <span class="site-item-stat-count">19</span>
+        <span class="site-item-stat-count">20</span>
         <span class="site-item-stat-name language" data-lan="tag">标签</span>
       </a>
     </div>
@@ -283,6 +283,299 @@
         <div class="section-box gemini">
           <section class="section  posts-expand slide-down-in">
             
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="http://blog.on-high.top/post/ti-jie-p1060-kai-xin-de-jin-ming/">
+      #题解 P1060开心的金明
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-09-10 20:49:59">2020-09-10</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-folder-o"></i>
+      <span class="pc-show language" data-lan="category-in">分类于</span>
+      
+      
+      <a href="http://blog.on-high.top/tag/sjBtX2RqI/">
+        <span>题解</span>
+      </a>
+      
+      
+    </span>
+    <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>5<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>1062<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
+            
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+            
+              <p><h1 id="我们先读题ᴗ">我们先读题(≖ᴗ≖)✧</h1>
+<div data-v-4b38bb56="" data-v-7b37eb95="" data-v-796309f8=""><!----> <h2 data-v-4b38bb56="" class="lfe-h2">题目描述</h2> <div data-v-5a58a989="" data-v-4b38bb56="" class="marked"><p>金明今天很开心，家里购置的新房就要领钥匙了，新房里有一间他自己专用的很宽敞的房间。更让他高兴的是，妈妈昨天对他说：“你的房间需要购买哪些物品，怎么布置，你说了算，只要不超过<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span></span></span></span></span>元钱就行”。今天一早金明就开始做预算，但是他想买的东西太多了，肯定会超过妈妈限定的<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span></span></span></span></span>元。于是，他把每件物品规定了一个重要度，分为<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>5</mn></mrow><annotation encoding="application/x-tex">5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span></span></span></span></span>等：用整数<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>−</mo><mn>5</mn></mrow><annotation encoding="application/x-tex">1-5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span></span></span></span></span>表示，第<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>5</mn></mrow><annotation encoding="application/x-tex">5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span></span></span></span></span>等最重要。他还从因特网上查到了每件物品的价格（都是整数元）。他希望在不超过<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span></span></span></span></span>元（可以等于<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span></span></span></span></span>元）的前提下，使每件物品的价格与重要度的乘积的总和最大。</p>
+<p>设第<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span></span></span></span></span>件物品的价格为<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>v</mi><mo stretchy="false">[</mo><mi>j</mi><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">v[j]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mopen">[</span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span><span class="mclose">]</span></span></span></span></span>，重要度为<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo stretchy="false">[</mo><mi>j</mi><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">w[j]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mopen">[</span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span><span class="mclose">]</span></span></span></span></span>，共选中了<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span></span>件物品，编号依次为<span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>j</mi><mn>1</mn></msub><mo separator="true">,</mo><msub><mi>j</mi><mn>2</mn></msub><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><msub><mi>j</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">j_1,j_2,…,j_k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05724em;">j</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.05724em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05724em;">j</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.05724em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05724em;">j</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.05724em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span>，则所求的总和为：</p>
+
+                
+              <p>
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="http://blog.on-high.top/post/ti-jie-p1060-kai-xin-de-jin-ming/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+    </div>
+  </article>
+
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="http://blog.on-high.top/post/bei-zhan-di-shi-jiu-jie-gu-shi-ci-yue-du-da-sai-jian-shang-pian/">
+      备战第十九届古诗词阅读大赛-鉴赏篇
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-08-24 10:14:57">2020-08-24</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>5<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>1415<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
+            
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+            
+              <p><h1 id="短歌行节选">短歌行（节选）</h1>
+<p>[三国]曹操<br>
+对酒当歌，人生几何！<br>
+
+                
+              <p>
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="http://blog.on-high.top/post/bei-zhan-di-shi-jiu-jie-gu-shi-ci-yue-du-da-sai-jian-shang-pian/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+    </div>
+  </article>
+
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="http://blog.on-high.top/post/bei-zhan-di-shi-jiu-jie-gu-shi-wen-yue-du-da-sai/">
+      备战第十九届古诗文阅读大赛-阅读篇
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-08-03 19:52:46">2020-08-03</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>52<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>14330<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
+            
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+            
+              <p><h1 id="16闻鸡起舞">16.闻鸡起舞</h1>
+<p>(祖逖）与刘坤俱<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mo><mi mathvariant="normal">为</mi></mo><mo>⋅</mo></msub></mrow><annotation encoding="application/x-tex">\underset{\centerdot}{为}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7em;vertical-align:-0.7em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0em;"><span style="top:-2.4em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord amsrm mtight">⋅</span></span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop cjk_fallback">为</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7em;"><span></span></span></span></span></span></span></span></span></span>司州主簿 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow></mrow><mi mathvariant="normal">①</mi></msup></mrow><annotation encoding="application/x-tex">^①</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.363em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.363em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">①</span></span></span></span></span></span></span></span></span></span></span> ，情好绸缪  <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow></mrow><mi mathvariant="normal">②</mi></msup></mrow><annotation encoding="application/x-tex">^②</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.363em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.363em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">②</span></span></span></span></span></span></span></span></span></span></span> ，共被就寝，中夜闻荒鸡鸣<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow></mrow><mi mathvariant="normal">③</mi></msup></mrow><annotation encoding="application/x-tex">^③</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.363em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.363em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">③</span></span></span></span></span></span></span></span></span></span></span>， <span class="katex"><span class="katex-mathml"><math><semantics><mrow><munder accentunder="true"><mrow><mi mathvariant="normal">蹴</mi><mi mathvariant="normal">琨</mi><mi mathvariant="normal">觉</mi><msup><mi mathvariant="normal">曰</mi><mi mathvariant="normal">④</mi></msup><mi mathvariant="normal">：</mi><mi mathvariant="normal">“</mi><mi mathvariant="normal">此</mi><mi mathvariant="normal">非</mi><mi mathvariant="normal">恶</mi><mspace linebreak="newline"></mspace><mi mathvariant="normal">声</mi><mi mathvariant="normal">也</mi><mi mathvariant="normal">”</mi><mi mathvariant="normal">因</mi><mi mathvariant="normal">起</mi><msup><mi mathvariant="normal">舞</mi><mi mathvariant="normal">⑤</mi></msup><mi mathvariant="normal">。</mi></mrow><mo stretchy="true">‾</mo></munder></mrow><annotation encoding="application/x-tex">\underline{蹴琨觉曰^④：“此非恶 \\ 声也” 因起舞^⑤。}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89444em;vertical-align:-0.20000000000000007em;"></span><span class="mord underline"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-2.84em;"><span class="pstrut" style="height:3em;"></span><span class="underline-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord cjk_fallback">蹴</span><span class="mord cjk_fallback">琨</span><span class="mord cjk_fallback">觉</span><span class="mord"><span class="mord cjk_fallback">曰</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.363em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">④</span></span></span></span></span></span></span></span><span class="mord cjk_fallback">：</span><span class="mord">“</span><span class="mord cjk_fallback">此</span><span class="mord cjk_fallback">非</span><span class="mord cjk_fallback">恶</span><span class="mspace newline"></span><span class="mord cjk_fallback">声</span><span class="mord cjk_fallback">也</span><span class="mord">”</span><span class="mord cjk_fallback">因</span><span class="mord cjk_fallback">起</span><span class="mord"><span class="mord cjk_fallback">舞</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.363em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">⑤</span></span></span></span></span></span></span></span><span class="mord cjk_fallback">。</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.20000000000000007em;"><span></span></span></span></span></span></span></span></span>······逖<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mo><mi mathvariant="normal">以</mi></mo><mo>⋅</mo></msub></mrow><annotation encoding="application/x-tex">\underset{\centerdot}{以}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7em;vertical-align:-0.7em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0em;"><span style="top:-2.4em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord amsrm mtight">⋅</span></span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop cjk_fallback">以</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7em;"><span></span></span></span></span></span></span></span></span></span>社稷倾覆<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow></mrow><mi mathvariant="normal">⑥</mi></msup></mrow><annotation encoding="application/x-tex">^⑥</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.363em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.363em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">⑥</span></span></span></span></span></span></span></span></span></span></span>，常怀振复之志。······仍<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mo><mi mathvariant="normal">将</mi></mo><mo>⋅</mo></msub></mrow><annotation encoding="application/x-tex">\underset{\centerdot}{将}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7em;vertical-align:-0.7em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0em;"><span style="top:-2.4em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord amsrm mtight">⋅</span></span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop cjk_fallback">将</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7em;"><span></span></span></span></span></span></span></span></span></span>本流徒部曲百余家渡江<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow></mrow><mi mathvariant="normal">⑦</mi></msup></mrow><annotation encoding="application/x-tex">^⑦</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.363em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.363em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">⑦</span></span></span></span></span></span></span></span></span></span></span>。中流击<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mo><mi mathvariant="normal">楫</mi></mo><mo>⋅</mo></msub></mrow><annotation encoding="application/x-tex">\underset{\centerdot}{楫}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7em;vertical-align:-0.7em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0em;"><span style="top:-2.4em;margin-left:0em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord amsrm mtight">⋅</span></span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span><span class="mop cjk_fallback">楫</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7em;"><span></span></span></span></span></span></span></span></span></span>而誓曰<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mrow></mrow><mi mathvariant="normal">⑧</mi></msup></mrow><annotation encoding="application/x-tex">^⑧</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.363em;vertical-align:0em;"></span><span class="mord"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.363em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">⑧</span></span></span></span></span></span></span></span></span></span></span>：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><munder accentunder="true"><mrow><mi mathvariant="normal">“</mi><mi mathvariant="normal">祖</mi><mi mathvariant="normal">逖</mi><mi mathvariant="normal">不</mi><mi mathvariant="normal">能</mi><mi mathvariant="normal">清</mi><mi mathvariant="normal">中</mi><mi mathvariant="normal">原</mi><mi mathvariant="normal">而</mi><mi mathvariant="normal">复</mi><mi mathvariant="normal">济</mi><mi mathvariant="normal">者</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">有</mi><mi mathvariant="normal">如</mi><mi mathvariant="normal">大</mi><msup><mi mathvariant="normal">江</mi><mi mathvariant="normal">⑨</mi></msup><mi mathvariant="normal">！</mi><mi mathvariant="normal">”</mi></mrow><mo stretchy="true">‾</mo></munder></mrow><annotation encoding="application/x-tex">\underline{“祖逖不能清中原而复济者，有如大江^⑨！”}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89444em;vertical-align:-0.20000000000000007em;"></span><span class="mord underline"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-2.84em;"><span class="pstrut" style="height:3em;"></span><span class="underline-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">“</span><span class="mord cjk_fallback">祖</span><span class="mord cjk_fallback">逖</span><span class="mord cjk_fallback">不</span><span class="mord cjk_fallback">能</span><span class="mord cjk_fallback">清</span><span class="mord cjk_fallback">中</span><span class="mord cjk_fallback">原</span><span class="mord cjk_fallback">而</span><span class="mord cjk_fallback">复</span><span class="mord cjk_fallback">济</span><span class="mord cjk_fallback">者</span><span class="mord cjk_fallback">，</span><span class="mord cjk_fallback">有</span><span class="mord cjk_fallback">如</span><span class="mord cjk_fallback">大</span><span class="mord"><span class="mord cjk_fallback">江</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.363em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">⑨</span></span></span></span></span></span></span></span><span class="mord cjk_fallback">！</span><span class="mord">”</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.20000000000000007em;"><span></span></span></span></span></span></span></span></span>辞色壮烈，众皆慨叹。<br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mspace width="29.5em"/><mstyle mathsize="0.9em"><mi mathvariant="normal">选</mi><mi mathvariant="normal">自</mi><mi mathvariant="normal">《</mi><mi mathvariant="normal">晋</mi><mi mathvariant="normal">书</mi><mi mathvariant="normal">》</mi></mstyle></mrow><annotation encoding="application/x-tex">\kern{295pt}\small 选自《晋书》</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mspace" style="margin-right:29.5em;"></span><span class="mord cjk_fallback sizing reset-size6 size5">选</span><span class="mord cjk_fallback sizing reset-size6 size5">自</span><span class="mord cjk_fallback sizing reset-size6 size5">《</span><span class="mord cjk_fallback sizing reset-size6 size5">晋</span><span class="mord cjk_fallback sizing reset-size6 size5">书</span><span class="mord cjk_fallback sizing reset-size6 size5">》</span></span></span></span></p>
+
+                
+              <p>
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="http://blog.on-high.top/post/bei-zhan-di-shi-jiu-jie-gu-shi-wen-yue-du-da-sai/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+    </div>
+  </article>
+
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <section class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="http://blog.on-high.top/post/6s-ying-yu-yu-fa-bi-ji/">
+      6S1英语语法笔记
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span class="publish-time" data-t="2020-07-20 21:11:07">2020-07-20</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>33<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>7838<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</section>
+      <div class="post-body">
+        
+        
+          
+            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
+            
+            
+              
+              
+              
+            
+              
+              
+              
+            
+              
+              
+              
+            
+            
+              <p><h1 id="第一课-名词">第一课 名词</h1>
+<figure data-type="image" tabindex="1"><img src="https://i.bmp.ovh/imgs/2020/07/33e820c15de15731.png" alt="" loading="lazy"></figure>
+<h2 id="名词的分类">名词的分类</h2>
+
+                
+              <p>
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn language" data-lan="read-more" href="http://blog.on-high.top/post/6s-ying-yu-yu-fa-bi-ji/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+    </div>
+  </article>
+
   <article class="post-list-box  post box-shadow-wrapper">
     <div class="article-wrapper bg-color">
       <section class="post-header">
@@ -754,319 +1047,6 @@
       
     </div>
   </article>
-
-  <article class="post-list-box  post box-shadow-wrapper">
-    <div class="article-wrapper bg-color">
-      <section class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="http://blog.on-high.top/post/n107-xin-xi-bian-ma-biao-shi/">
-      N107 信息编码表示
-    </a>
-  </h1>
-  <div class="post-meta">
-    
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span class="language" data-lan="publish">发布于</span>
-      <span class="publish-time" data-t="2020-04-29 20:59:28">2020-04-29</span>
-      <span class="post-meta-divider pc-show">|</span>
-    </span>
-    
-    <span class="meta-item">
-      <i class="fa fa-folder-o"></i>
-      <span class="pc-show language" data-lan="category-in">分类于</span>
-      
-      
-      <a href="http://blog.on-high.top/tag/6mP9DGMhkp/">
-        <span>N knowledge</span>
-      </a>
-      
-      
-    </span>
-    <span class="post-meta-divider">|</span>
-    
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>5<span class="language" data-lan="minute">分钟</span></span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>1352<span class="pc-show language" data-lan="words">字数</span></span>
-    </span>
-    
-  </div>
-</section>
-      <div class="post-body">
-        
-        
-          
-            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
-            
-            
-              
-              
-              
-            
-              
-              
-              
-            
-              
-              
-              
-            
-            
-              <p><h1 id="一-基本概念">一、基本概念</h1>
-<h2 id="编码">编码</h2>
-<p>计算机要处理的数据除了数值数据以外，还有各类符号、图形、图像和声音等非数值数据。而计算机只能识别两个数字0,1。要使计算机能处理这些信息，首先必须要将各类信息转换成0与1表示的代码，这一过程称为编码。</p>
-
-                
-              <p>
-            
-          
-        
-        
-        <div class="post-button text-center">
-          <a class="btn language" data-lan="read-more" href="http://blog.on-high.top/post/n107-xin-xi-bian-ma-biao-shi/" rel="contents">
-            阅读全文 »
-          </a>
-        </div>
-        
-      </div>
-      
-    </div>
-  </article>
-
-  <article class="post-list-box  post box-shadow-wrapper">
-    <div class="article-wrapper bg-color">
-      <section class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="http://blog.on-high.top/post/ying-yu-xue-xi-bi-ji-english-study-note-v522223/">
-      英语学习笔记 English study note v5.2.22.23
-    </a>
-  </h1>
-  <div class="post-meta">
-    
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span class="language" data-lan="publish">发布于</span>
-      <span class="publish-time" data-t="2020-04-28 19:58:21">2020-04-28</span>
-      <span class="post-meta-divider pc-show">|</span>
-    </span>
-    
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>0<span class="language" data-lan="minute">分钟</span></span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>0<span class="pc-show language" data-lan="words">字数</span></span>
-    </span>
-    
-  </div>
-</section>
-      <div class="post-body">
-        
-        
-          
-            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
-            
-            
-              
-              
-              
-            
-              
-              
-            
-              <p><figure data-type="image" tabindex="1"><img src="http://blog.on-high.top/post-images/1588075170049.png" alt="" loading="lazy"></figure>
-
-                
-              <p>
-            
-          
-        
-        
-        <div class="post-button text-center">
-          <a class="btn language" data-lan="read-more" href="http://blog.on-high.top/post/ying-yu-xue-xi-bi-ji-english-study-note-v522223/" rel="contents">
-            阅读全文 »
-          </a>
-        </div>
-        
-      </div>
-      
-    </div>
-  </article>
-
-  <article class="post-list-box  post box-shadow-wrapper">
-    <div class="article-wrapper bg-color">
-      <section class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="http://blog.on-high.top/post/ying-yu-xue-xi-bi-ji-english-study-note-v521321/">
-      英语学习笔记English study note v5.2.13.21
-    </a>
-  </h1>
-  <div class="post-meta">
-    
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span class="language" data-lan="publish">发布于</span>
-      <span class="publish-time" data-t="2020-04-28 09:14:34">2020-04-28</span>
-      <span class="post-meta-divider pc-show">|</span>
-    </span>
-    
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>2<span class="language" data-lan="minute">分钟</span></span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>318<span class="pc-show language" data-lan="words">字数</span></span>
-    </span>
-    
-  </div>
-</section>
-      <div class="post-body">
-        
-        
-          
-            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
-            
-            
-              
-              
-              
-            
-              
-              
-              
-            
-              
-              
-              
-            
-            
-              <p><h1 id="m1u3-how-noisy">M1U3 How noisy!</h1>
-<h2 id="hello-vocabulary">hello vocabulary</h2>
-<pre><code class="language-text">黄页单词（main words）
-
-                
-                  <!-- 自动摘要出来的内容有<code则补上结尾,防止格式错误 -->
-                  </code></pre>
-                
-              <p>
-            
-          
-        
-        
-        <div class="post-button text-center">
-          <a class="btn language" data-lan="read-more" href="http://blog.on-high.top/post/ying-yu-xue-xi-bi-ji-english-study-note-v521321/" rel="contents">
-            阅读全文 »
-          </a>
-        </div>
-        
-      </div>
-      
-    </div>
-  </article>
-
-  <article class="post-list-box  post box-shadow-wrapper">
-    <div class="article-wrapper bg-color">
-      <section class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="http://blog.on-high.top/post/ti-jie-fang-ping-guo/">
-      #题解 放苹果
-    </a>
-  </h1>
-  <div class="post-meta">
-    
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span class="language" data-lan="publish">发布于</span>
-      <span class="publish-time" data-t="2020-04-27 13:38:19">2020-04-27</span>
-      <span class="post-meta-divider pc-show">|</span>
-    </span>
-    
-    <span class="meta-item">
-      <i class="fa fa-folder-o"></i>
-      <span class="pc-show language" data-lan="category-in">分类于</span>
-      
-      
-      <a href="http://blog.on-high.top/tag/sjBtX2RqI/">
-        <span>题解</span>
-      </a>、
-      
-      
-      
-      <a href="http://blog.on-high.top/tag/-XJx5UJbiC/">
-        <span>搜索</span>
-      </a>、
-      
-      
-      
-      <a href="http://blog.on-high.top/tag/VjKDa17mbp/">
-        <span>递归</span>
-      </a>
-      
-      
-    </span>
-    <span class="post-meta-divider">|</span>
-    
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>5<span class="language" data-lan="minute">分钟</span></span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>1008<span class="pc-show language" data-lan="words">字数</span></span>
-    </span>
-    
-  </div>
-</section>
-      <div class="post-body">
-        
-        
-          
-            <!-- 没有手动摘要切开启了自动摘要,则根据配置筛除摘要内容 -->
-            
-            
-              
-              
-              
-            
-              
-              
-              
-            
-              
-              
-              
-            
-            
-              <p><h2 id="ε٩๑3۶-先来读题啊啊啊">ε≡٩(๑&gt;₃&lt;)۶ 先来读题啊啊啊</h2>
-<h3 id="题目背景">题目背景</h3>
-<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">（</mi><mi>p</mi><mi>o</mi><mi>j</mi><mn>1664</mn><mi mathvariant="normal">）</mi></mrow><annotation encoding="application/x-tex">（poj1664）</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord cjk_fallback">（</span><span class="mord mathdefault">p</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span><span class="mord">1</span><span class="mord">6</span><span class="mord">6</span><span class="mord">4</span><span class="mord cjk_fallback">）</span></span></span></span></p>
-
-                
-              <p>
-            
-          
-        
-        
-        <div class="post-button text-center">
-          <a class="btn language" data-lan="read-more" href="http://blog.on-high.top/post/ti-jie-fang-ping-guo/" rel="contents">
-            阅读全文 »
-          </a>
-        </div>
-        
-      </div>
-      
-    </div>
-  </article>
   
             
             
@@ -1530,6 +1510,38 @@ function password()
 &lt;h2 id=&#34;删除线&#34;&gt;删除线&lt;/h2&gt;
 &lt;p&gt;&lt;span style=&#34;text-decoration: line-through;&#34;&gt;&lt;span class=&#34;uknowtoomuch&#34; data-original-title=&#34;&#34; title=&#34;&#34;&gt;（测试）&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 ">云剪切板【公开】</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://blog.on-high.top/post/shu-xue-bi-ji/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;记些公式题型吧&lt;/p&gt;
+&lt;/blockquote&gt;
+">数学笔记</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://blog.on-high.top/post/ying-yu-ci-hui-bi-ji/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;主要记录学习英语时的词汇，用法&lt;/p&gt;
+&lt;/blockquote&gt;
+">英语词汇笔记</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://blog.on-high.top/post/ying-yu-yu-fa-bi-ji/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;本文主要记录学习英语语法的笔记&lt;/p&gt;
+&lt;/blockquote&gt;
+">英语语法笔记</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="http://blog.on-high.top/post/yu-wen-ji-lei-bi-ji/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;本文主要记录学习语文过程中的笔记，例如读后感，应试技巧等…… 轻喷&lt;/p&gt;
+&lt;/blockquote&gt;
+">语文积累笔记</a>
       </div>
       
       <div class="item">
@@ -2202,7 +2214,7 @@ int main(){
 &lt;/ol&gt;
 &lt;h1 id=&#34;第12课-阅说明文说明对象的特征&#34;&gt;第12课 [阅]说明文：说明对象的特征&lt;/h1&gt;
 &lt;h2 id=&#34;概念&#34;&gt;概念&lt;/h2&gt;
-">6A1语文学习笔记</a>
+">语文课程学习笔记</a>
       </div>
       
       <div class="item">
