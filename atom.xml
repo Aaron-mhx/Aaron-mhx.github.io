@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.on-high.top</id>
+    <title>Gridea</title>
+    <updated>2022-07-27T09:29:48.910Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://blog.on-high.top"/>
+    <link rel="self" href="https://blog.on-high.top/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://blog.on-high.top/images/avatar.png</logo>
+    <icon>https://blog.on-high.top/favicon.ico</icon>
+    <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[#树 二叉树的建立和遍历]]></title>
+        <id>https://blog.on-high.top/post/vZC1UdhyFq/</id>
+        <link href="https://blog.on-high.top/post/vZC1UdhyFq/">
+        </link>
+        <updated>2021-11-07T00:06:06.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#算法 选择排序]]></title>
+        <id>https://blog.on-high.top/post/qX1C7Ep4y/</id>
+        <link href="https://blog.on-high.top/post/qX1C7Ep4y/">
+        </link>
+        <updated>2021-10-15T23:05:42.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#数据结构 指针变量]]></title>
+        <id>https://blog.on-high.top/post/fUIkVfriY/</id>
+        <link href="https://blog.on-high.top/post/fUIkVfriY/">
+        </link>
+        <updated>2021-10-15T14:56:53.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#算法 sort 用法 & 结构体排序]]></title>
+        <id>https://blog.on-high.top/post/9eLteZhV4/</id>
+        <link href="https://blog.on-high.top/post/9eLteZhV4/">
+        </link>
+        <updated>2021-10-14T14:16:18.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#语法 字符串处理函数]]></title>
+        <id>https://blog.on-high.top/post/yygHC-y7q/</id>
+        <link href="https://blog.on-high.top/post/yygHC-y7q/">
+        </link>
+        <updated>2021-10-14T13:57:33.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#算法 LIS最长上升子序列]]></title>
+        <id>https://blog.on-high.top/post/mSLF2axL6/</id>
+        <link href="https://blog.on-high.top/post/mSLF2axL6/">
+        </link>
+        <updated>2021-10-12T13:21:13.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#NOI赛场 文件输入输出]]></title>
+        <id>https://blog.on-high.top/post/G-6w2sRyd/</id>
+        <link href="https://blog.on-high.top/post/G-6w2sRyd/">
+        </link>
+        <updated>2021-10-07T06:40:34.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#语法 三目运算符]]></title>
+        <id>https://blog.on-high.top/post/pr6EG6US71/</id>
+        <link href="https://blog.on-high.top/post/pr6EG6US71/">
+        </link>
+        <updated>2021-10-07T06:34:45.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#语法 输入输出]]></title>
+        <id>https://blog.on-high.top/post/217_KJiJ68/</id>
+        <link href="https://blog.on-high.top/post/217_KJiJ68/">
+        </link>
+        <updated>2021-10-07T06:11:44.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#算法 BFS广度优先搜索]]></title>
+        <id>https://blog.on-high.top/post/P0yuAk4wq/</id>
+        <link href="https://blog.on-high.top/post/P0yuAk4wq/">
+        </link>
+        <updated>2021-10-03T14:19:15.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#数据结构 Queue队列]]></title>
+        <id>https://blog.on-high.top/post/M0KjE_jX/</id>
+        <link href="https://blog.on-high.top/post/M0KjE_jX/">
+        </link>
+        <updated>2021-10-03T13:59:42.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#算法 快速幂]]></title>
+        <id>https://blog.on-high.top/post/zBdCXS7ES/</id>
+        <link href="https://blog.on-high.top/post/zBdCXS7ES/">
+        </link>
+        <updated>2021-09-20T00:13:52.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#题解 P1308 [NOIP2011 普及组] 统计单词数]]></title>
+        <id>https://blog.on-high.top/post/p1308/</id>
+        <link href="https://blog.on-high.top/post/p1308/">
+        </link>
+        <updated>2021-03-16T14:17:15.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#题解 P2118 [NOIP2014 普及组] 比例简化]]></title>
+        <id>https://blog.on-high.top/post/ti-jie-p2118-noip2014-pu-ji-zu-bi-li-jian-hua/</id>
+        <link href="https://blog.on-high.top/post/ti-jie-p2118-noip2014-pu-ji-zu-bi-li-jian-hua/">
+        </link>
+        <updated>2021-03-08T14:10:34.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[英语语法笔记]]></title>
+        <id>https://blog.on-high.top/post/ying-yu-yu-fa-bi-ji/</id>
+        <link href="https://blog.on-high.top/post/ying-yu-yu-fa-bi-ji/">
+        </link>
+        <updated>2021-01-26T12:50:18.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[test]]></title>
+        <id>https://blog.on-high.top/post/test/</id>
+        <link href="https://blog.on-high.top/post/test/">
+        </link>
+        <updated>2021-01-14T13:49:48.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#题解 P1190 接水问题]]></title>
+        <id>https://blog.on-high.top/post/ti-jie-p1190-jie-shui-wen-ti/</id>
+        <link href="https://blog.on-high.top/post/ti-jie-p1190-jie-shui-wen-ti/">
+        </link>
+        <updated>2020-10-17T06:46:08.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#题解 [USACO1.3]混合牛奶 Mixing Milk]]></title>
+        <id>https://blog.on-high.top/post/ti-jie-usaco13hun-he-niu-nai-mixing-milk/</id>
+        <link href="https://blog.on-high.top/post/ti-jie-usaco13hun-he-niu-nai-mixing-milk/">
+        </link>
+        <updated>2020-09-23T12:32:39.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[动态规划（dp）]]></title>
+        <id>https://blog.on-high.top/post/dong-tai-gui-hua-dp/</id>
+        <link href="https://blog.on-high.top/post/dong-tai-gui-hua-dp/">
+        </link>
+        <updated>2020-09-14T12:06:58.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[0-1背包&完全背包]]></title>
+        <id>https://blog.on-high.top/post/0-1-bei-bao-andwan-quan-bei-bao/</id>
+        <link href="https://blog.on-high.top/post/0-1-bei-bao-andwan-quan-bei-bao/">
+        </link>
+        <updated>2020-09-14T11:58:35.000Z</updated>
+    </entry>
+</feed>
